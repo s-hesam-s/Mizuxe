@@ -2,6 +2,14 @@
 
 An educational responsive book-promotion landing page using Bootstrap, custom SCSS and jQuery-based interactions.
 
+## Captured preview
+
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/screenshots/portfolio-poster.png" /><source type="image/webp" srcset="docs/screenshots/portfolio.webp" /><img src="docs/screenshots/portfolio.gif" width="100%" alt="Mizuxe — actual captured UI states" /></picture>
+
+Book landing page and the existing accordion interaction. Author names and content are educational sample copy.
+
+[Reproduce this capture and view the static image](docs/PORTFOLIO-PREVIEW.md) · [Mobile capture](docs/screenshots/portfolio-mobile.png)
+
 ## Included UI
 
 - Book hero, subscription layout and feature cards.
