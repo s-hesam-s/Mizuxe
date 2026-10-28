@@ -49,7 +49,7 @@ The pages reference resources from `cdn.jsdelivr.net`, `code.jquery.com`, `use.f
 
 Check navigation, author cards and accordion behavior at desktop and mobile widths. Subscription/contact forms do not include a submission backend.
 
-No automated behavior-test suite is included. Preview instructions are not a claim that every third-party widget is compatible with current CDN responses. Application services, persistent storage and deployment are outside this UI exercise.
+No automated browser-interaction suite is included; dependency-policy regressions run separately. Preview instructions are not a claim that every third-party widget is compatible with current CDN responses. Application services, persistent storage and deployment are outside this UI exercise.
 
 ## Project scope and reuse
 
@@ -60,3 +60,7 @@ This is an educational repository. The implementation notes describe the code in
 GitHub Actions checks root HTML documents for a doctype, document shell, nonempty title and duplicate IDs. It also verifies local href/src/poster targets, filename casing and HTML/SVG fragments using `python3 scripts/check_site.py`. Remote URLs and placeholder `#` links are not fetched; this is not a full HTML5 conformance, accessibility or browser interaction test. No npm installation, backend or deployment is involved.
 
 The [CI workflow](.github/workflows/ci.yml) runs for pull requests and pushes to `master`, and can be started manually. It uses read-only repository permissions and does not deploy the project.
+
+## Runtime dependency checks
+
+[Dependency inventory, local asset policy and verification commands](docs/FRONTEND-DEPENDENCIES.md) describe the exact runtime resources and CI guard.
