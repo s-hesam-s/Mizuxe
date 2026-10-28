@@ -1,0 +1,23 @@
+{
+  "scope": "Root HTML script/stylesheet references; local runtime hashes use LF-normalized bytes. This inventory is not a vulnerability database.",
+  "remoteResources": [
+    {
+      "url": "https://use.fontawesome.com/releases/v5.15.4/css/all.css",
+      "integrity": "sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+    },
+    {
+      "url": "https://code.jquery.com/jquery-3.6.0.min.js",
+      "integrity": "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js",
+      "integrity": "sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    }
+  ],
+  "localAssets": [
+    {
+      "path": "css/bootstrap.css",
+      "sha256LF": "bcbabc9a5f6116684352dfe8494cc971e3c4d0c11d50922f1198112b825ffe05"
+    }
+  ]
+}

@@ -25,3 +25,7 @@ jobs:
           persist-credentials: false
       - name: Check HTML documents and local targets
         run: python3 scripts/check_site.py
+      - name: Check reviewed runtime dependencies
+        run: python3 scripts/check_dependencies.py
+      - name: Test dependency guard
+        run: python3 -m unittest discover -s tests -p test_dependencies.py
